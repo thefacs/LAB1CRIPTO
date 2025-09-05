@@ -10,7 +10,7 @@ Se implementaron las siguientes actividades:
    - Script en Python que cifra texto usando el algoritmo César con un desplazamiento configurable.  
    - Comando para ejecutar el programa:  
      ```bash
-     sudo python3 act1_cesar.py "criptografia y seguridad en redes" 9
+     sudo python3 ac1.py "criptografia y seguridad en redes" 9
      ```
 
 2. **Transmisión Stealth mediante ICMP (Actividad 2)**  
@@ -18,14 +18,14 @@ Se implementaron las siguientes actividades:
    - Se mantiene coherencia en timestamp, ID, sequence number y payload.  
    - Comando para ejecutar el programa:  
      ```bash
-     sudo python3 act2_stealth.py 8.8.8.8 "larycxpajorj h bnpdarmjm nw anmnb"
+     sudo python3 act2.py 8.8.8.8 "larycxpajorj h bnpdarmjm nw anmnb"
      ```
 
 3. **Recuperación del mensaje mediante MitM (Actividad 3)**  
    - Script en Python que captura los paquetes ICMP enviados en la Actividad 2, genera todas las combinaciones posibles de descifrado y resalta el mensaje más probable.  
    - Comando para ejecutar el programa:  
      ```bash
-     sudo python3 act3_mitm.py lab1v2.pcapng
+     sudo python3 act3.py lab1v2.pcapng
      ```
 
 
